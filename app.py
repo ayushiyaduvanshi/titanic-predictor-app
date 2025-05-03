@@ -1,6 +1,10 @@
 
 import streamlit as st
 import joblib
+from sklearn.externals import joblib  # sometimes deprecated
+
+# OR, more modern and reliable:
+import joblib  # This should work if joblib is properly listed in requirements
 import numpy as np
 
 model = joblib.load('best_random_forest_model.pkl')
