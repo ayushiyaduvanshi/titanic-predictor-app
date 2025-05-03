@@ -1,11 +1,9 @@
 
 import streamlit as st
-import pickle
 import numpy as np
 
-# Load the model using pickle
-with open("updated_best_random_forest_model.pkl", "rb") as file:
-    model = pickle.load(file)
+import joblib
+model = joblib.load("model.pkl")
 
 st.title("🚢 Titanic Survival Predictor")
 st.write("Enter passenger details below to predict survival:")
