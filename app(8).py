@@ -1,7 +1,8 @@
-
 import streamlit as st
-import numpy as np
 import joblib
+import numpy as np
+
+# Load the model using joblib
 model = joblib.load("model.pkl")
 
 st.title("🚢 Titanic Survival Predictor")
@@ -21,9 +22,10 @@ sex = 1 if sex == "Male" else 0
 embarked_map = {"Cherbourg": 0, "Queenstown": 1, "Southampton": 2}
 embarked = embarked_map[embarked]
 
-# Predict
+# Feature array
 features = np.array([[pclass, sex, age, sibsp, parch, fare, embarked]])
 
+# Prediction
 if st.button("Predict Survival"):
     prediction = model.predict(features)
     result = "🎉 Survived" if prediction[0] == 1 else "💀 Did Not Survive"
