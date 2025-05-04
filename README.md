@@ -64,7 +64,8 @@ Check out the app live on [Streamlit Cloud](https://titanic-predictor-app.stream
 
 ## 📸 App Preview
 
-![App Screenshot](https://user-images.githubusercontent.com/00000000/placeholder.png)
+![image](https://github.com/user-attachments/assets/26d50376-e8ab-4301-bc8f-a2ffdf9e9c80)
+
 
 ---
 
@@ -92,4 +93,5 @@ The model used is a **Random Forest Classifier** trained using `GridSearchCV` fo
 ## 📬 Contact
 
 Made with 💙 by Ayushi Yaduvanshi  
-🔗 [LinkedIn](https://linkedin.com/in/ayushiyaduvanshi)
+🔗 [LinkedIn](https://www.linkedin.com/in/ayushi-yaduvanshi/)
+
