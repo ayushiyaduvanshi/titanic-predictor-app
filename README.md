@@ -92,6 +92,6 @@ The model used is a **Random Forest Classifier** trained using `GridSearchCV` fo
 
 ## 📬 Contact
 
-Made with 💙 by Ayushi Yaduvanshi  
+Made by Ayushi Yaduvanshi  
 🔗 [LinkedIn](https://www.linkedin.com/in/ayushi-yaduvanshi/)
 
